@@ -1,0 +1,11 @@
+.shouts {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  z-index: 19;
+  min-width: 240px; }
+  @media screen and (min-width: 769px), print {
+    .shouts {
+      max-width: 320px; } }
+  .shouts .shout {
+    margin: 20px; }

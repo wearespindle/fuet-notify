@@ -36,6 +36,7 @@
   },
   "files": [
     "src/js/*.js",
+    "src/scss/*.scss",
     "LICENSE",
     "README.md"
   ],

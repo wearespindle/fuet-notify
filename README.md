@@ -1,5 +1,5 @@
 # vue-shout
-Simple notification for Vue using the Vuex store. Checkout the [demo](https://wearespindle.github.io/vue-shout/).
+Simple notification for Vue using the Stash store. Checkout the [demo](https://wearespindle.github.io/vue-shout/).
 
 # Usage
 This module depends on npm and commonjs. Just install in your project with:
@@ -8,7 +8,7 @@ This module depends on npm and commonjs. Just install in your project with:
 
 Then include the two components with:
 
-    const {Shout, Shouts, vuex} = require('vue-shout')
+    const {Shout, Shouts} = require('vue-shout')
     Vue.component('Shout', Shout)
     Vue.component('Shouts', Shouts)
 

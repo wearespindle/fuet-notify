@@ -1,7 +1,7 @@
 {
   "name": "vue-shout",
-  "version": "1.0.4",
-  "description": "Simple notification system for Vue using the Vuex store and Bulma styles.",
+  "version": "1.0.5",
+  "description": "Simple notification system for Vue using vue-stash and Bulma styles.",
   "main": "src/js/index.js",
   "peerDependencies": {
     "bulma": ">=0.2",

@@ -4,8 +4,8 @@ module.exports = function(template) {
         staticRenderFns: template.s,
         props: ['shout'],
         methods: {
-            closeShout(shout) {
-                this.$store.commit('REMOVE_SHOUT', shout)
+            closeShout: function(shout) {
+                this.$store.shouts = this.$store.shouts.filter((i) => i.id !== shout.id)
             },
         },
     }

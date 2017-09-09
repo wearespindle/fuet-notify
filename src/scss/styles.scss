@@ -1,17 +1,15 @@
-@import 'bulma/sass/utilities/variables';
-@import 'bulma/sass/utilities/mixins';
-
-.shouts {
-    @include tablet {
+.notifications {
+    @media (min-width: 769px) {
         max-width: 320px;
     }
+
     position: fixed;
     top: 0px;
     right: 0;
     z-index: 19;
     min-width: 240px;
 
-    .shout {
+    .notification {
         margin: 20px;
     }
 }

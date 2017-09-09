@@ -1,10 +1,10 @@
 {
-  "name": "vue-shout",
+  "name": "fuet-notify",
   "version": "1.0.6",
-  "description": "Simple notification system for Vue using vue-stash and Bulma styles.",
+  "description": "Simple notification component for Vue and Vue-stash.",
   "main": "src/js/index.js",
   "peerDependencies": {
-    "bulma": ">=0.2",
+    "bulma": ">=0.5",
     "vue": ">=2"
   },
   "watch": {
@@ -40,16 +40,14 @@
     "LICENSE",
     "README.md"
   ],
-  "repository": "https://github.com/wearespindle/vue-shout",
+  "repository": "https://github.com/wearespindle/fuet-notify",
   "keywords": [
     "vue",
-    "bulma",
-    "pagination"
+    "notification"
   ],
   "author": "Devhouse Spindle",
   "license": "MIT",
   "devDependencies": {
-    "bulma": "^0.4.1",
     "gh-pages": "^1.0.0",
     "npm-watch": "^0.1.9"
   }

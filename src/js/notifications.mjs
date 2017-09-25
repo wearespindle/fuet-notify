@@ -1,4 +1,4 @@
-module.exports = function(template) {
+export function Notifications(template) {
     return {
         render: template.r,
         staticRenderFns: template.s,

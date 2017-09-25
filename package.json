@@ -2,7 +2,7 @@
   "name": "fuet-notify",
   "version": "1.0.8",
   "description": "Simple notification component for Vue and Vue-stash.",
-  "main": "src/js/index.js",
+  "module": "index.mjs",
   "peerDependencies": {
     "bulma": ">=0.5",
     "vue": ">=2"
@@ -29,9 +29,9 @@
   "scripts": {
     "demo": "browserify demo/index.js > demo/build.js;npm run scss;",
     "demo_publish": "npm run demo;gh-pages -d demo",
-    "prepublish": "fuet -c -i 'src/vue/*.vue' -p src vue -o src/js/templates.js",
+    "prepublish": "fuet -e -i 'src/vue/*.vue' -p src vue -o src/js/templates.mjs",
     "scss": "sass -I ./node_modules src/scss/styles.scss > demo/styles.css",
-    "vue": "fuet -c -i 'src/vue/*.vue' -p src vue -o src/js/templates.js",
+    "vue": "fuet -e -i 'src/vue/*.vue' -p src vue -o src/js/templates.mjs",
     "watch": "npm-watch"
   },
   "files": [

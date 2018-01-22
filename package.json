@@ -30,7 +30,7 @@
     "demo": "browserify demo/index.js > demo/build.js;npm run scss;",
     "demo_publish": "npm run demo;gh-pages -d demo",
     "prepublish": "fuet -c -i 'src/vue/*.vue' -p src vue -o src/js/templates.js",
-    "scss": "sass -I ./node_modules src/scss/styles.scss > demo/styles.css",
+    "scss": "node-sass -I ./node_modules src/scss/styles.scss > demo/styles.css",
     "vue": "fuet -c -i 'src/vue/*.vue' -p src vue -o src/js/templates.js",
     "watch": "npm-watch"
   },
@@ -50,5 +50,8 @@
   "devDependencies": {
     "gh-pages": "^1.0.0",
     "npm-watch": "^0.1.9"
+  },
+  "dependencies": {
+    "vue-template-compiler": "^2.5.13"
   }
 }
